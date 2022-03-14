@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun Boniad(name: String) {
+fun Boniad() {
     Box(modifier = Modifier.fillMaxSize()){
         Image(painter = painterResource(id = R.drawable.backdrop), contentDescription = "BACK", Modifier.fillMaxSize(), contentScale = ContentScale.FillBounds)
     }
